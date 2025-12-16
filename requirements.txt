@@ -1,0 +1,31 @@
+# Core dependencies
+fastapi==0.104.1
+uvicorn==0.24.0
+python-multipart==0.0.6
+pydantic==2.5.0
+
+# Database
+psycopg2-binary==2.9.9
+sqlalchemy==2.0.23
+
+# Web scraping
+requests==2.31.0
+feedparser==6.0.10
+beautifulsoup4==4.12.2
+lxml==4.9.3
+tqdm==4.66.1
+aiohttp==3.9.1
+aiofiles==23.2.1
+
+# Vector embeddings and search
+sentence-transformers>=2.3.0
+pinecone
+huggingface-hub>=0.20.0
+
+# Local LLM
+ollama==0.1.7
+
+# Utilities
+python-dotenv==1.0.0
+numpy>=1.26.0
+
